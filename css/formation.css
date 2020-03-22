@@ -1,0 +1,134 @@
+.bouton {
+    background-color: #DC3545 !important;
+    font-size: 20px;
+    text-align: center;
+    color: white !important;
+
+}
+
+.dropdown button {
+    display: block !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: none;
+    background-color: white !important;
+    color: black !important;
+}
+
+#form,
+#form a.active {
+    background-color: #1B3549;
+    color: white;
+}
+
+#form a.active {
+    font-weight: bold;
+    border-color: #1B3549;
+}
+
+#form a {
+    color: black;
+    padding: 5px 10px;
+}
+
+.nav-tabs {
+    background-color: white;
+}
+
+.nav-item {
+    padding: 20px 10px 0px;
+}
+
+section .row {
+    margin: 5px;
+    justify-content: center;
+}
+
+.desc {
+    background-color: #e0e0e0e0;
+    color: black;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    .bouton {
+        width: 100px !important;
+    }
+}
+
+@media (min-width: 760px) {
+    .bouton {
+        position: fixed;
+        bottom: 1%;
+        right: 1%;
+        z-index: 9999;
+        width: 70px;
+    }
+}
+
+.titre {
+    text-align: center;
+    font-size: 70px;
+}
+
+.colone1 {
+    background-color: #dc3545c7;
+    /* color: white;
+    border:solid;
+    border-color: white; */
+}
+
+.colone1 p {
+    font-size: 25px;
+}
+
+.colone2 p {
+    font-size: 15px;
+}
+
+i {
+    display: block;
+    text-align: center;
+    width: 40px;
+}
+
+@media (max-width: 576px) {
+    .titre {
+        font-size: 40px;
+    }
+    section .row {
+        margin-bottom: 10px;
+    }
+    section h1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 760px) {
+    .bouton {
+        width: 200px;
+        position: fixed;
+        bottom: 1%;
+        right: 1%;
+        z-index: 9999;
+    }
+
+    .titre {
+        margin-top: 60px;
+        margin-bottom: 90px;
+    }
+    .desc {
+        border-top-right-radius: 10px;
+    }
+}
+
+.bouton {
+    background-color: #1B3549;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lien {
+    color: white;
+}

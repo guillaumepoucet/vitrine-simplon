@@ -1,0 +1,298 @@
+body {
+    font-family: 'Open Sans' !important;
+}
+
+h1,
+h2,
+h3,
+.navbar a {
+    font-family: 'PT Sans' !important;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.contact-btn:hover {
+    border-color: #CE0033;
+    color: #CE0033;
+}
+
+.join-btn:hover,
+.btn-mobile .join-btn {
+    color: white;
+    background-color: #CE0033;
+    border-color: #CE0033;
+}
+
+.btn-mobile .contact-btn {
+    color: white;
+    border-color: white;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    /* Disable horizontal scroll */
+    overflow-x: hidden;
+    /* Place content 60px from the top */
+    padding-top: 60px;
+    /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.5s;
+    background-color: #1B3549;
+}
+
+.sidenav h6 {
+    color: #ffffffab;
+    font-size: 20px;
+    font-weight: 500 !important;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 5px 8px 5px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover,
+.course .card-title {
+    color: #CE0033;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.contact-btn {
+    color: #1B3549;
+    border: 1px solid #1B3549;
+}
+
+.main_img {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+.main_img img {
+    filter: brightness(86%);
+}
+
+.slogan {
+    position: absolute;
+    bottom: 0px;
+    left: 23px;
+    color: white;
+}
+
+.slogan span {
+    background-color: #CE0033;
+    padding: 0px 10px;
+}
+
+.main_logo {
+    max-width: 60% !important;
+}
+
+#grid i {
+    font-size: 12px;
+}
+
+.grid a:hover {
+    text-decoration: none;
+}
+
+.grid2 a,
+.grid3 a {
+    color: white;
+}
+
+.join-btn,
+.grid2 {
+    background-color: #1B3549;
+    color: white;
+}
+
+.grid3,
+.btn-apply {
+    background-color: #CE0033;
+    color: white;
+}
+
+.grid-icon {
+    font-size: 100px !important;
+    margin-bottom: 37px !important;
+}
+
+.social {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#apply,
+#entreprise {
+    background-color: #1B3549;
+}
+
+.apply-ttl {
+    color: white;
+    text-align: center;
+}
+
+.card-btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-mobile {
+    position: absolute;
+    bottom: 14px;
+    left: 11px;
+}
+
+.grand-est {
+    max-width: 215px;
+}
+
+.simplon-xs {
+    max-width: 155px;
+}
+
+.card-ent {
+    border: none;
+}
+
+.card-ent i {
+    font-size: 13px;
+}
+
+.projet-titre{
+    background-color: #DC3545;
+    display: inline-block;
+    padding: 20px 30px 5px 30px;
+    color:white;
+}
+.carte{
+    background-color: white;
+}
+
+@media (min-width: 576px) {
+    .slogan {
+        font-size: 0.95rem;
+    }
+    .grid {
+        padding-top: 43px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .grid-icon {
+        font-size: 60px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .main_logo {
+        margin-top: 45px !important;
+        margin-bottom: 45px !important;
+    }
+    .social-icon {
+        flex-direction: column !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid {
+        padding-top: 43px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .slogan span {
+        font-size: 1.15rem;
+    }
+    .course .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .apply-ttl {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .apply-ttl p {
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1200px) {
+    p {
+        letter-spacing: 0.02em;
+    }
+
+    .main_logo {
+        max-width: 75% !important;
+    }
+
+    .slogan {
+        bottom: 20px;
+        left: 25px;
+    }
+
+    .slogan span {
+        font-size: 1.4em;
+        padding: 0px 30px;
+        bottom: 25px;
+        left: 35px;
+    }
+
+    .grid {
+        padding-top: 100px !important;
+        padding-bottom: 95px !important;
+    }
+
+    .grid-icon {
+        font-size: 70px !important;
+        margin-bottom: 35px !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    .slogan span {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 1900px) {
+    .slogan {
+        bottom: 35px;
+        left: 35px;
+    }
+
+    .slogan span {
+        font-size: 2.2em;
+        left: 35px;
+        bottom: 70px;
+    }
+}
