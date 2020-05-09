@@ -50,6 +50,7 @@ h3,
     /* 0.5 second transition effect to slide in the sidenav */
     transition: 0.5s;
     background-color: #1B3549;
+    white-space: nowrap;
 }
 
 .sidenav h6 {
